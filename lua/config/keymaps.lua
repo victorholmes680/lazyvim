@@ -4,6 +4,8 @@
 
 -- Emacs style keybindings
 vim.keymap.set("i", "<C-a>", "<C-o>^")
+vim.keymap.set("n", "<C-a>", "^")
 vim.keymap.set("i", "<C-e>", "<C-o>$")
+vim.keymap.set("n", "<C-e>", "$")
 vim.keymap.set("i", "<C-f>", "<Right>")
 vim.keymap.set("i", "<C-b>", "<Left>")
