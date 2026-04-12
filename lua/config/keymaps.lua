@@ -11,3 +11,11 @@ vim.keymap.set("i", "<C-f>", "<Right>")
 vim.keymap.set("i", "<C-b>", "<Left>")
 vim.keymap.set("n", "<C-x><C-s>", ":w<CR>")
 vim.keymap.set("i", "<C-x><C-s>", "<Esc>:w<CR>")
+
+-- C-k: kill to end of line (cut from cursor to EOL)
+vim.keymap.set("n", "<C-k>", "d$")
+vim.keymap.set("i", "<C-k>", "<C-o>d$")
+
+-- C-y: yank (paste last killed text)
+vim.keymap.set("n", "<C-y>", "p")
+vim.keymap.set("i", "<C-y>", "<C-o>p")
