@@ -9,5 +9,5 @@ vim.opt.expandtab = true
 vim.opt.softtabstop = 4
 
 if vim.g.neovide then
-  vim.opt.guifont = "Consolas:h18"
+  vim.opt.guifont = "Consolas:h15"
 end
